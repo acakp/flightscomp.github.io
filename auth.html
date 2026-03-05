@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Вход - Дешёвые авиабилеты</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="container">
+      <div class="navbar-logo"><a href="index.html">флайтс компани</a></div>
+      <div class="navbar-links">
+        <button class="navbar-item">Рейсы</button>
+        <button class="navbar-item">Отели</button>
+        <button class="navbar-item">Путешествия</button>
+      </div>
+      <button class="navbar-item profile-button">Профиль</button>
+      <button class="navbar-hamburger" id="hamburger-btn">&#9776;</button>
+    </div>
+  </header>
+
+  <main class="auth-section" style="padding: 120px 20px 80px; background: #f8f8f8; min-height: 100vh;">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card feature-card p-4">
+            <div class="text-center mb-4">
+              <h2 class="mb-3">Вход в аккаунт</h2>
+              <p class="text-muted">Введите свои данные для входа</p>
+            </div>
+
+            <form>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control p-3" id="email" placeholder="your@email.com" required>
+              </div>
+
+              <div class="mb-3">
+                <label for="password" class="form-label">Пароль</label>
+                <input type="password" class="form-control p-3" id="password" placeholder="Введите пароль" required>
+              </div>
+
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="remember">
+                <label class="form-check-label" for="remember">Запомнить меня</label>
+              </div>
+
+              <button type="submit" class="btn btn-primary w-100 p-3 mb-3"><a href="profile.html">Войти</a></button>
+
+              <div class="text-center">
+                <a href="#" class="text-decoration-none">Забыли пароль?</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-cols">
+        <div class="footer-col">
+          <h4>О нас</h4>
+          <p>Компания</p>
+          <p>Миссия</p>
+          <p>Контакты</p>
+        </div>
+        <div class="footer-col">
+          <h4>Информация</h4>
+          <p>Пользовательское соглашение</p>
+          <p>Политика конфиденциальности</p>
+        </div>
+        <div class="footer-col">
+          <h4>Поддержка</h4>
+          <p>Помощь</p>
+          <p>Чат 24/7</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
